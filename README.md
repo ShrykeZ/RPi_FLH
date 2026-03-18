@@ -15,9 +15,7 @@ smbus
 
 ## Install deps:
 sudo apt update<br>
-sudo apt install python3-pil<br>
-sudo apt install python3-RPi.GPIO<br>
-sudo apt install python3-smbus
+sudo apt install python3-pil python3-RPi.GPIO python3-smbus
 
 ## I2C needs to be enabled for smbus functionality.
 sudo raspi-config<br>
